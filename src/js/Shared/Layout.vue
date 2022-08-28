@@ -1,7 +1,7 @@
 <template>
   <div>
     <Header />
-    <main class="my-12">
+    <main class="my-6">
       <slot></slot>
     </main>
     <Footer />

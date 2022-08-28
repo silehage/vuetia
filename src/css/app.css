@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@layer base {
+  .link-box {
+   @apply flex space-x-3 items-center py-2 hover:bg-gray-50 first:border-t border-b
+ }
+}

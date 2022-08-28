@@ -1,5 +1,5 @@
 <template>
-  <section class="max-w-6xl mx-auto px-2 sm:px-6 lg:px-8">
+  <section class="max-w-6xl mx-auto px-2 sm:px-6 lg:px-8 my-4">
     <article v-for="post in props.posts" :key="post.id" class="mb-6">
       <div class="flex space-x-6">
         <img v-if="post.post_thumbnail" :src="post.post_thumbnail" class="w-36 object-cover h-36 border"/>

@@ -1,6 +1,6 @@
 <template>
   <div class="max-w-6xl mx-auto px-2 sm:px-6 lg:px-8">
-     <h1 class="text-3xl my-5">{{ post.post_title }}</h1>
+     <h1 class="text-3xl my-2">{{ post.post_title }}</h1>
 
     <div class="bg-gray-50 my-8">
       <div class="max-w-6xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 lg:flex lg:items-center lg:justify-between">
@@ -19,7 +19,7 @@
       </div>
     </div>
 
-    <div class="flex space-x-8">
+    <div class="md:flex md:space-x-8">
       <div v-html="post.post_content" class="flex-1 bg-white"></div>
       <div style="width:320px;" class="bg-white">
         <relatedPosts :data="related_posts"/>
