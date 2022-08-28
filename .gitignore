@@ -1,0 +1,6 @@
+.vscode
+*.sql
+mix-manifest.json
+
+vendor
+node_modules

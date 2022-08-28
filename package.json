@@ -1,0 +1,35 @@
+{
+  "name": "vuetia-wordpress-theme",
+  "version": "1.0.0",
+  "description": "A WordPress Theme Using Vue 3 & Inertia.js",
+  "scripts": {
+    "dev": "npx mix",
+    "watch": "npx mix watch",
+    "build": "npx mix -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/silehage/vuetia.git"
+  },
+  "keywords": [],
+  "author": "Silehage",
+  "license": "MIT",
+  "homepage": "https://github.com/silehage/vuetia#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.8",
+    "laravel-mix": "^6.0.43",
+    "mix-tailwindcss": "^1.3.0",
+    "postcss": "^8.4.16",
+    "tailwindcss": "^3.1.8"
+  },
+  "dependencies": {
+    "@inertiajs/inertia": "^0.11.0",
+    "@inertiajs/inertia-vue3": "^0.6.0",
+    "@inertiajs/progress": "^0.2.7",
+    "vue": "^3.2.31",
+    "vue-loader": "^17.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/silehage/vuetia/issues"
+  }
+}

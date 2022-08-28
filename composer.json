@@ -1,0 +1,14 @@
+{
+    "name": "silehage/vuetia",
+    "description": "A WordPress Theme Using Vue 3 & Inertia.js",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "silehage",
+            "email": "silehwage@gmail.com"
+        }
+    ],
+    "require": {
+      "boxybird/inertia-wordpress": "^0.5.6"
+    }
+}
