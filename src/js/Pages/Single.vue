@@ -19,7 +19,7 @@
       </div>
     </div>
 
-    <div class="md:flex md:space-x-8">
+    <div class="block md:flex md:space-x-8">
       <div v-html="post.post_content" class="flex-1 bg-white"></div>
       <div style="width:320px;" class="bg-white">
         <relatedPosts :data="related_posts"/>
